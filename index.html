@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- link for font style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   <!-- my style -->
   <link rel="stylesheet" href="./css/style.css">
   
@@ -17,20 +21,26 @@
   </style>
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
+  <div class="card">
+    <div class="card__figure">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall" class="card__img">
+    </div>
+    <h1 class="card__author">Jessica Randall</h1>
+    <h3 class="card__address">London, United Kingdom</h3>
+    <p class="card__content">"Front-end developer and avid reader.</p>
+    <div class="card__btn">
+      <ul class="card__btn--list">
+        <li><a href="#" class="card__btn card_active">GitHub</a></li>
+        <li><a href="#" class="card_btn--sub">Frontend Mentor</a></li>
+        <li><a href="#" class="card_btn--sub">LinkedIn</a></li>
+        <li><a href="#" class="card_btn--sub">Twitter</a></li>
+        <li><a href="#" class="card_btn--sub">Instagram</a></li>
+      </ul>
+    </div>
+  </div>  
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>

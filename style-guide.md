@@ -11,7 +11,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Green: hsl(75, 94%, 57%)
+- Green: hsl(75, 94%, 57%) (DONE)
 
 ### Neutral
 
@@ -24,7 +24,7 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (paragraph): 14px
+- Font size (paragraph): 14px (i used the %)
 
 ### Font
 

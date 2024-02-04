@@ -1,1 +1,44 @@
-body {}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 71.4%;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+}
+/* blocks */
+.card {
+    margin: 11rem auto; /* to center the card */    
+    background-color: hsl(0, 0%, 12%);
+    width: 50rem;
+    text-align: center;
+}
+.card__figure {
+    display: inline-block;
+}
+.card__img {
+    width: 5rem;
+    border-radius: 25rem;
+    margin: 2.5rem;
+}
+.card__author {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.card__address {
+    font-size: 1rem;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-top: 0.5rem;
+}
+.card__content {
+    color: hsl(0deg 0% 72.94%);
+}
+
+/* buttons */
