@@ -67,6 +67,9 @@ body {
     color: hsl(0, 0%, 100%); 
     font-size: 1.2rem;
 }
+.card__btn-- {
+    
+}
 .card__btn--main:active {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
