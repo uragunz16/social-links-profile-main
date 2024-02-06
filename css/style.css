@@ -51,14 +51,10 @@ body {
 .btn, 
 .btn:link{
     text-decoration: none;
-    display: inline-block; /* this to be not here */
-
+    display: inline-block;
     background-color: hsl(0, 0%, 20%);
-
     color: hsl(0, 0%, 100%); 
     font-size: 1.2rem;
-
-    /*  */
     padding: 1.3rem 9rem;
     margin: 0.6rem 0;
     cursor: pointer;
@@ -71,31 +67,13 @@ body {
     color: hsl(0, 0%, 8%);
     transition: all 0.1s;    
 }
-
-/* Refactor the buttons */
-.card__btn { 
-    display: inline-block;
+/* special */
+.attribution { 
+    font-size: 1rem; 
+    text-align: center;
+    color: #fff; 
 }
-.card__btn--btn {
-    margin-top: -1rem;
-}
-.card__btn--btn li {
-    background-color: hsl(0, 0%, 20%);
-    list-style: none;
-    padding: 1.3rem 9rem;
-    margin: 1.3rem 0;
-    cursor: pointer;
-    border-radius: 0.5rem;
-}
-.card__btn--btn a{
-    text-decoration: none;
-    color: hsl(0, 0%, 100%); 
-    font-size: 1.2rem;
-}
-.card__btn--btn a:active {
-    color: hsl(0, 0%, 8%);
-}
-.card__btn--main:active {
-    background-color: hsl(75, 94%, 57%);
-    transition: all 0.1s;
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
 }
